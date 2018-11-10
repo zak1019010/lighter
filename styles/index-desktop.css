@@ -2,10 +2,19 @@ body, html {
     height: 100%;
 }
 
-.bg {
-    background-image: url("../inages/splashVideo.mp4");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.navbar {
+    color: white;
+}
+
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+#about {
+    position: fixed;
+    bottom: 0;
 }
