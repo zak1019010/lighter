@@ -3,7 +3,9 @@ body, html {
 }
 
 .navbar {
-    color: white;
+    right: 0;
+    z-index: 1000;
+    background: transparent;
 }
 
 #bgVideo {
@@ -11,7 +13,6 @@ body, html {
     right: 0;
     bottom: 0;
     min-width: 100%; 
-    min-height: 100%;
 }
 
 #about {
