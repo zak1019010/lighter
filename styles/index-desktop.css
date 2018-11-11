@@ -25,17 +25,6 @@ body, html {
     filter: blur(5px);
 }
 
-#about {
-    /* position: fixed; */
-    height:50%;
-}
-
-.content{
-    position: absolute;
-    top: 75%;
-    left: 45%;
-}
-
 #header-text {
     color: #ffc107;
     position: fixed;
@@ -43,7 +32,18 @@ body, html {
     left: 39%;
 }
 
+.btn-outline-warning {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+}
+
 #about {
-    bottom: 0;
+    /* bottom: 0; */
     height: 50%;
+}
+
+.about-img {
+    height: 100px;
+    width: 100px;
 }
