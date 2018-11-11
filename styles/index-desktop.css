@@ -1,3 +1,12 @@
+body {
+    height: 100%;
+    overflow: auto;
+}
+ html {
+    overflow: hidden;
+    height: 100%;
+ }
+
 body, html {
     height: 100%;
 }
@@ -17,8 +26,8 @@ body, html {
 }
 
 #about {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed; */
+    height:50%;
 }
 
 .content{
@@ -32,4 +41,9 @@ body, html {
     position: fixed;
     bottom: 50%;
     left: 39%;
+}
+
+#about {
+    bottom: 0;
+    height: 50%;
 }
