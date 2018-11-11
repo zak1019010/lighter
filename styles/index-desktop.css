@@ -75,3 +75,12 @@ p a{
 .section-heading {
     padding-top: 5%;
 }
+
+.text {
+    position: absolute;
+    right: 0;
+    left: 0%;
+    top: 50%;
+    z-index: 1000;
+  }
+  
