@@ -27,6 +27,7 @@ body, html {
     bottom: 0;
     min-width: 100%;  */
     filter: blur(5px);
+    height: 100%;
 }
 
 #header-text {
@@ -66,7 +67,11 @@ p a{
     color: black
 }
 
-.bg-primary {
+.bg-primary-color {
     background: white;
     color: black;
+}
+
+.section-heading {
+    padding-top: 5%;
 }
