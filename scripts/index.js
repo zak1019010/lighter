@@ -4,6 +4,7 @@ Survey
   .applyTheme("default");
 
 var json = {
+
 pages: [
 {
 name: "page1",
@@ -150,7 +151,8 @@ elements: [
 }
 ]
 }
-],
+],    completedHtml: "<p><h4>Sign up to meet your mentors!</h4></p>"
+
     };
 
     window.survey = new Survey.Model(json);
